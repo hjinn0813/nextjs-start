@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
             <a href="/read/2">CSS</a>
           </li>
         </ol>
-        {/* children은 page.js에서 온다 */}
+        {/* children은 src/app/page.js에서 온다 */}
         {children}
         <ul>
           <li>
