@@ -7,6 +7,8 @@ export default function Home() {
     <>
       <h2>Welcome!</h2>
       <div>hello, web!</div>
+      <br />
+      <img src="/hello.jpg"></img>
     </>
   );
 }

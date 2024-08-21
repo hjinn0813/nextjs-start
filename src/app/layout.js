@@ -1,6 +1,8 @@
 // 기본적인 웹페이지 골격을 설정하는 곳
 
+import Link from 'next/link';
 import './globals.css';
+// -> 루트 레이아웃이라 global 파일을 불러오고 있음
 
 export const metadata = {
   title: 'Web Tutorials',
@@ -12,24 +14,24 @@ export default function RootLayout({ children }) {
     <html>
       <body>
         <h1>
-          <a href="/">WEB</a>
+          <Link href="/">WEB</Link>
         </h1>
         <ol>
           <li>
-            <a href="/read/1">HTML</a>
+            <Link href="/read/1">HTML</Link>
           </li>
           <li>
-            <a href="/read/2">CSS</a>
+            <Link href="/read/2">CSS</Link>
           </li>
         </ol>
         {/* children은 src/app/page.js에서 온다 */}
         {children}
         <ul>
           <li>
-            <a href="/create">CREATE</a>
+            <Link href="/create">CREATE</Link>
           </li>
           <li>
-            <a href="/update/1">UPDATE</a>
+            <Link href="/update/1">UPDATE</Link>
           </li>
           <li>
             <input type="button" value="delete" />
