@@ -24,6 +24,7 @@ export default function Create() {
           .then((result) => {
             console.log(result);
             const lastid = result.id;
+            router.refresh(); // comp refresh, 데이터 변경 반영을 위한 강제 렌더링
             router.push(`read/${lastid}`); // 생성된 페이지로 리디렉션
           });
       }}
