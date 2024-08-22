@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import './globals.css';
 // -> 루트 레이아웃이라 global 파일을 불러오고 있음
+import Control from './Control';
 
 export const metadata = {
   title: 'Web Tutorials',
@@ -32,17 +33,7 @@ export default async function RootLayout({ children }) {
         </ol>
         {/* children은 src/app/page.js에서 온다 */}
         {children}
-        <ul>
-          <li>
-            <Link href="/create">CREATE</Link>
-          </li>
-          <li>
-            <Link href="/update/1">UPDATE</Link>
-          </li>
-          <li>
-            <input type="button" value="delete" />
-          </li>
-        </ul>
+        <Control />
       </body>
     </html>
   );
