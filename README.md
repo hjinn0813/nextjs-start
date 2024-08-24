@@ -1,9 +1,23 @@
-# study Next.js
+# Study Next.js
 
-study with youtube
+- self-study the basic of Next.js by YouTube (egoing, Nomadcoders)
 
-https://www.youtube.com/playlist?list=PLuHgQVnccGMCwxXsQuEoG-JJ7RlwtNdwJ
+<br />
 
-#
+<table>
+  <tr>
+    <th style="text-align: center">Name</th>
+    <th style="text-align: center">Period</th>
+  </tr>
+  <tr>
+    <td style="text-align: center">egoing</td>
+    <td>2024.08.20 ~ 08.22</td>
+  </tr>
+  <tr>
+    <td style="text-align: center">Nomadcoders</td>
+    <td>2024.08.24 ~ </td>
+  </tr>
+</table>
+<br />
 
-![nextjs](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+- **학습내용:** 배포, 라우팅(App Router), 정적자원활용, SSR, SPA, "use client", 캐시(cache), CRUD, Hydration, 환경변수 등
