@@ -1,5 +1,11 @@
 // about
+import Navigation from '../../components/navigation';
 
 export default function About() {
-  return <h1>About US</h1>;
+  return (
+    <div>
+      <Navigation />
+      <h1>About US</h1>
+    </div>
+  );
 }
