@@ -10,7 +10,7 @@ export const API_URL = 'https://nomad-movies.nomadcoders.workers.dev/movies';
 
 async function getMovie() {
   // data fetching
-  await new Promise((resolve) => setTimeout(resolve, 5000));
+  await new Promise((resolve) => setTimeout(resolve, 2000));
   const resp = await fetch(API_URL);
   const json = await resp.json();
   return json;
