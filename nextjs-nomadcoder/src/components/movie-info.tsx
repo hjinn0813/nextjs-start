@@ -1,6 +1,6 @@
 // movie info comp
 
-import { API_URL } from '../app/(home)/page';
+import { API_URL } from './../app/constants';
 import style from '../styles/movie-info.module.css';
 
 export async function getMovie(id: string) {

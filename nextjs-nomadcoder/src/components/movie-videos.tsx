@@ -1,6 +1,6 @@
 // video component
 
-import { API_URL } from '../app/(home)/page';
+import { API_URL } from './../app/constants';
 import style from '../styles/movie-video.module.css';
 
 async function getVideos(id: string) {
