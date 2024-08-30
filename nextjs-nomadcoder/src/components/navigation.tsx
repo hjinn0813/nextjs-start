@@ -13,7 +13,7 @@ export default function navigation() {
 
   return (
     <nav className={style.nav}>
-      <ul className={style.list}>
+      <ul>
         <li>
           <Link href="/">Home</Link>
           {path === '/' ? '👈' : ''}
